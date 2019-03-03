@@ -1,0 +1,181 @@
+{
+  "type": "list",
+  "title": {
+    "localized": {
+      "uz": "Тариф «VIP»",
+      "ru": "Тариф «VIP»"
+    },
+    "default": "Тариф «VIP»"
+  },
+  "items": [
+    {
+      "title": {
+        "localized": {
+          "uz": "Тарифга ўтиш",
+          "ru": "Перейти на тариф"
+        },
+        "default": "Тарифга ўтиш"
+      },
+      "action": {
+        "type": "ussdConfirm",
+        "confirmMessage": {
+          "localized": {
+            "uz": "«VIP» тарифига ўтмоқчимисиз?",
+            "ru": "Хотите перейти на тариф «VIP» ?"
+          },
+          "default": "«VIP» тарифига ўтмоқчимисиз?"
+        },
+        "ussd": "*171*141*011000148#"
+      },
+      "type": "button"
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Абонент тўлови (ойига)",
+          "ru": "Абонентская плата (за месяц)"
+        },
+        "default": "Абонент тўлови (ойига)"
+      },
+      "amount": {
+        "localized": {
+          "uz": "147000 сўм",
+          "ru": "147000 сум"
+        },
+        "default": "147000 сўм"
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Чиқувчи қўнғироқлар",
+          "ru": "Исходящие звонки"
+        },
+        "default": "Чиқувчи қўнғироқлар"
+      },
+      "amount": {
+        "localized": {
+          "uz": "Бепул",
+          "ru": "Бесплатно"
+        },
+        "default": "Бепул"
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Бепул MBлар",
+          "ru": "Бесплатные мегабайты"
+        },
+        "default": "Бепул MBлар"
+      },
+      "amount": {
+        "localized": {
+          "uz": "5000 MB",
+          "ru": "5000 MB"
+        },
+        "default": "5000 MB"
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Бепул SMS",
+          "ru": "Бесплатные SMS"
+        },
+        "default": "Бепул SMS"
+      },
+      "amount": {
+        "localized": {
+          "uz": "500",
+          "ru": "500"
+        },
+        "default": "500"
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Чиқувчи қўнғироқлар",
+          "ru": "Исходящие звонки"
+        },
+        "default": "Чиқувчи қўнғироқлар"
+      },
+      "amount": {
+        "localized": {
+          "uz": "126,31 сўм",
+          "ru": "126,31 сум"
+        },
+        "default": "126,31 сўм"
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Чиқувчи SMS",
+          "ru": "Исходящий SMS"
+        },
+        "default": "Чиқувчи SMS"
+      },
+      "amount": {
+        "localized": {
+          "uz": "84,2 сўм",
+          "ru": "84,2 сум"
+        },
+        "default": "84,2 сўм"
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Чиқувчи халқаро SMS",
+          "ru": "Исходящий международный SMS"
+        },
+        "default": "Чиқувчи халқаро SMS"
+      },
+      "amount": {
+        "localized": {
+          "uz": "631,5 сўм",
+          "ru": "631,5 сум"
+        },
+        "default": "631,5 сўм"
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "Интернет 1MB",
+          "ru": "Интернет 1MB"
+        },
+        "default": "Интернет 1MB"
+      },
+      "amount": {
+        "localized": {
+          "uz": "421,04 сўм",
+          "ru": "421,04 сум"
+        },
+        "default": "421,04 сўм"
+      }
+    }
+  ],
+  "ussdConfirmMessage": {
+    "default": "Ушбу тарифга ўтмоқчимисиз?"
+  },
+  "confirmNegativeButton": {
+    "localized": {
+      "uz": "Йўқ",
+      "ru": "Нет"
+    },
+    "default": "Йўқ"
+  },
+  "confirmPositiveButton": {
+    "localized": {
+      "uz": "Ҳа",
+      "ru": "Да"
+    },
+    "default": "Ҳа"
+  },
+  "meta": [
+    "no_divider"
+  ]
+}

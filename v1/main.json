@@ -1,0 +1,181 @@
+{
+  "type": "grid",
+  "items": [
+    {
+      "image": {
+        "default": "v1/images/main/xhdpi/internet.png",
+        "mdpi": "v1/images/main/mdpi/internet.png",
+        "hdpi": "v1/images/main/hdpi/internet.png",
+        "xhdpi": "v1/images/main/xhdpi/internet.png",
+        "xxhdpi": "v1/images/main/xxhdpi/internet.png",
+        "xxxhdpi": "v1/images/main/xxhdpi/internet.png"
+      },
+      "title": {
+        "localized": {
+          "uz": "Интернет",
+          "ru": "Интернет"
+        },
+        "default": "Интернет"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/internet/internet_packages.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Интернет тўпламлар",
+              "ru": "Интернет пакеты"
+            },
+            "default": "Интернет тўпламлар"
+          }
+        }
+      }
+    },
+    {
+      "image": {
+        "default": "v1/images/main/xhdpi/tariffs.png",
+        "mdpi": "v1/images/main/mdpi/tariffs.png",
+        "hdpi": "v1/images/main/hdpi/tariffs.png",
+        "xhdpi": "v1/images/main/xhdpi/tariffs.png",
+        "xxhdpi": "v1/images/main/xxhdpi/tariffs.png",
+        "xxxhdpi": "v1/images/main/xxhdpi/tariffs.png"
+      },
+      "title": {
+        "localized": {
+          "uz": "Тарифлар",
+          "ru": "Тарифы"
+        },
+        "default": "Тарифлар"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariffs.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тарифлар",
+              "ru": "Тарифы"
+            },
+            "default": "Тарифлар"
+          }
+        }
+      }
+    },
+    {
+      "image": {
+        "default": "v1/images/main/xhdpi/sms_packages.png",
+        "mdpi": "v1/images/main/mdpi/sms_packages.png",
+        "hdpi": "v1/images/main/hdpi/sms_packages.png",
+        "xhdpi": "v1/images/main/xhdpi/sms_packages.png",
+        "xxhdpi": "v1/images/main/xxhdpi/sms_packages.png",
+        "xxxhdpi": "v1/images/main/xxhdpi/sms_packages.png"
+      },
+      "title": {
+        "localized": {
+          "uz": "SMS тўпламлар",
+          "ru": "SMS пакеты"
+        },
+        "default": "SMS тўпламлар"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/sms/sms_packages.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "SMS тўпламлар",
+              "ru": "SMS пакеты"
+            },
+            "default": "SMS тўпламлар"
+          }
+        }
+      }
+    },
+    {
+      "image": {
+        "default": "v1/images/main/xhdpi/minute_packages.png",
+        "mdpi": "v1/images/main/mdpi/minute_packages.png",
+        "hdpi": "v1/images/main/hdpi/minute_packages.png",
+        "xhdpi": "v1/images/main/xhdpi/minute_packages.png",
+        "xxhdpi": "v1/images/main/xxhdpi/minute_packages.png",
+        "xxxhdpi": "v1/images/main/xxhdpi/minute_packages.png"
+      },
+      "title": {
+        "localized": {
+          "uz": "Дақиқа тўпламлар",
+          "ru": "Пакеты минут"
+        },
+        "default": "Дақиқа тўпламлар"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/minute/minute_packages.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Дақиқа тўпламлар",
+              "ru": "Пакеты минут"
+            },
+            "default": "Дақиқа тўпламлар"
+          }
+        }
+      }
+    },
+    {
+      "image": {
+        "default": "v1/images/main/xhdpi/balance.png",
+        "mdpi": "v1/images/main/mdpi/balance.png",
+        "hdpi": "v1/images/main/hdpi/balance.png",
+        "xhdpi": "v1/images/main/xhdpi/balance.png",
+        "xxhdpi": "v1/images/main/xxhdpi/balance.png",
+        "xxxhdpi": "v1/images/main/xxhdpi/balance.png"
+      },
+      "title": {
+        "localized": {
+          "uz": "Баланс",
+          "ru": "Баланс"
+        },
+        "default": "Баланс"
+      },
+      "action": {
+        "type": "ussd",
+        "ussd": "*100#"
+      }
+    },
+    {
+      "image": {
+        "default": "v1/images/main/xhdpi/services.png",
+        "mdpi": "v1/images/main/mdpi/services.png",
+        "hdpi": "v1/images/main/hdpi/services.png",
+        "xhdpi": "v1/images/main/xhdpi/services.png",
+        "xxhdpi": "v1/images/main/xxhdpi/services.png",
+        "xxxhdpi": "v1/images/main/xxhdpi/services.png"
+      },
+      "title": {
+        "localized": {
+          "uz": "Xizmatlar",
+          "ru": "Услуги"
+        },
+        "default": "Xizmatlar"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/service/services.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Xizmatlar",
+              "ru": "Услуги"
+            },
+            "default": "Xizmatlar"
+          }
+        }
+      }
+    }
+  ]
+}

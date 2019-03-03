@@ -1,0 +1,477 @@
+{
+  "type": "list",
+  "title": {
+    "localized": {
+      "uz": "Тарифлар",
+      "ru": "Тарифы"
+    },
+    "default": "Тарифлар"
+  },
+  "items": [
+    {
+      "title": {
+        "localized": {
+          "uz": "Тарифни текшириш",
+          "ru": "Проверка тарифа"
+        },
+        "default": "Тарифни текшириш"
+      },
+      "action": {
+        "type": "ussd",
+        "ussd": "*100#"
+      },
+      "type": "button"
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Асосий»",
+          "ru": "«Базовый»"
+        },
+        "default": "«Асосий»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_basic.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Асосий»",
+              "ru": "Тариф «Базовый»"
+            },
+            "default": "Тариф «Асосий»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Стандарт»",
+          "ru": "«Стандартный»"
+        },
+        "default": "«Стандарт»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_standard.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Стандарт»",
+              "ru": "Тариф «Стандартный»"
+            },
+            "default": "Тариф «Стандарт»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Оптимал»",
+          "ru": "«Оптимальный»"
+        },
+        "default": "«Оптимал»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_optimal.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Оптимал»",
+              "ru": "Тариф «Оптимальный»"
+            },
+            "default": "Тариф «Оптимал»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Оптимал +»",
+          "ru": "«Оптимальный +»"
+        },
+        "default": "«Оптимал +»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_optimal_plus.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Оптимал +»",
+              "ru": "Тариф «Оптимальный +»"
+            },
+            "default": "Тариф «Оптимал +»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Қулай»",
+          "ru": "«Удобный»"
+        },
+        "default": "«Қулай»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_comfortable.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Қулай»",
+              "ru": "Тариф «Удобный»"
+            },
+            "default": "Тариф «Қулай»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Қулай +»",
+          "ru": "«Удобный +»"
+        },
+        "default": "«Қулай +»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_comfortable_plus.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Қулай +»",
+              "ru": "Тариф «Удобный +»"
+            },
+            "default": "Тариф «Қулай +»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Премиал»",
+          "ru": "«Премиальный»"
+        },
+        "default": "«Премиал»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_premium.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Премиал»",
+              "ru": "Тариф «Премиальный»"
+            },
+            "default": "Тариф «Премиал»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Идеал»",
+          "ru": "«Идеальный»"
+        },
+        "default": "«Идеал»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_ideal.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Идеал»",
+              "ru": "Тариф «Идеальный»"
+            },
+            "default": "Тариф «Идеал»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«VIP»",
+          "ru": "«VIP»"
+        },
+        "default": "«VIP»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_vip.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «VIP»",
+              "ru": "Тариф «VIP»"
+            },
+            "default": "Тариф «VIP»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Ажойиб»",
+          "ru": "«Ажойиб»"
+        },
+        "default": "«Ажойиб»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_excellent.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Ажойиб»",
+              "ru": "Тариф «Ажойиб»"
+            },
+            "default": "Тариф «Ажойиб»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Терминал»",
+          "ru": "«Терминал»"
+        },
+        "default": "«Терминал»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_terminal.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Terminal»",
+              "ru": "Тариф «Терминал»"
+            },
+            "default": "Тариф «Terminal»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Гап бор!»",
+          "ru": "«Гап Бор!»"
+        },
+        "default": "«Гап бор!»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_gap_bor.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Gap Bor!»",
+              "ru": "Тариф «Gap Bor!»"
+            },
+            "default": "Тариф «Gap Bor!»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Оптима 333»",
+          "ru": "«Оптима 333»"
+        },
+        "default": "«Оптима 333»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_optima.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Optima 333»",
+              "ru": "Тариф «Optima 333»"
+            },
+            "default": "Тариф «Optima 333»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«555»",
+          "ru": "«555»"
+        },
+        "default": "«555»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_555.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «555»",
+              "ru": "Тариф «555»"
+            },
+            "default": "Тариф «555»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«777»",
+          "ru": "«777»"
+        },
+        "default": "«777»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_777.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «777»",
+              "ru": "Тариф «777»"
+            },
+            "default": "Тариф «777»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Connect»",
+          "ru": "«Connect»"
+        },
+        "default": "«Connect»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_connect.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Connect»",
+              "ru": "Тариф «Connect»"
+            },
+            "default": "Тариф «Connect»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Maxi New»",
+          "ru": "«Maxi New»"
+        },
+        "default": "«Maxi New»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_maxi_new.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Maxi New»",
+              "ru": "Тариф «Maxi New»"
+            },
+            "default": "Тариф «Maxi New»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Ultra»",
+          "ru": "«Ultra»"
+        },
+        "default": "«Ultra»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_ultra.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Ultra»",
+              "ru": "Тариф «Ultra»"
+            },
+            "default": "Тариф «Ultra»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Perfect»",
+          "ru": "«Perfect»"
+        },
+        "default": "«Perfect»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_perfect.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Perfect»",
+              "ru": "Тариф «Perfect»"
+            },
+            "default": "Тариф «Perfect»"
+          }
+        }
+      }
+    }
+  ],
+  "confirmNegativeButton": {
+    "localized": {
+      "uz": "Йўқ",
+      "ru": "Нет"
+    },
+    "default": "Йўқ"
+  },
+  "confirmPositiveButton": {
+    "localized": {
+      "uz": "Ҳа",
+      "ru": "Да"
+    },
+    "default": "Ҳа"
+  }
+}
