@@ -1,3 +1,152 @@
 {
-	"version": 1
+  "mainScreen": {
+    "path": "v1/main.json",
+    "type": "grid"
+  },
+  "navigationView": {
+    "headerImage": {
+      "default": "v1/images/menu/any-dpi/header.jpg"
+    },
+    "headerAction": {
+      "type": "openUri",
+      "uri": "https://t.me/umsuzbekiston1"
+    },
+    "menuItems": [
+      {
+        "id": 200,
+        "title": {
+          "localized": {
+            "ru": "Новости",
+            "uz": "Янгиликлар"
+          }
+        },
+        "icon": {
+          "mdpi": "v1/images/menu/mdpi/news.png",
+          "hdpi": "v1/images/menu/hdpi/news.png",
+          "xhdpi": "v1/images/menu/xhdpi/news.png",
+          "xxhdpi": "v1/images/menu/xxhdpi/news.png",
+          "xxxhdpi": "v1/images/menu/xxxhdpi/news.png",
+          "default": "v1/images/menu/xhdpi/news.png"
+        },
+        "action": {
+          "type": "openScreen",
+          "screen": {
+            "type": "web",
+            "title": {
+              "localized": {
+                "ru": "Новости",
+                "uz": "Янгиликлар"
+              }
+            },
+            "id": "news",
+            "path": "http://ums.uz/ru/news/"
+          }
+        }
+      },
+      {
+        "id": 201,
+        "title": {
+          "localized": {
+            "ru": "Оценить приложение",
+            "uz": "Баҳо бериш"
+          }
+        },
+        "icon": {
+          "mdpi": "v1/images/menu/mdpi/rate.png",
+          "hdpi": "v1/images/menu/hdpi/rate.png",
+          "xhdpi": "v1/images/menu/xhdpi/rate.png",
+          "xxhdpi": "v1/images/menu/xxhdpi/rate.png",
+          "xxxhdpi": "v1/images/menu/xxxhdpi/rate.png",
+          "default": "v1/images/menu/xhdpi/rate.png"
+        },
+        "action": {
+          "type": "openAppInStore"
+        }
+      },
+      {
+        "id": 202,
+        "title": {
+          "localized": {
+            "ru": "Поделиться",
+            "uz": "Бўлишиш"
+          }
+        },
+        "icon": {
+          "mdpi": "v1/images/menu/mdpi/share.png",
+          "hdpi": "v1/images/menu/hdpi/share.png",
+          "xhdpi": "v1/images/menu/xhdpi/share.png",
+          "xxhdpi": "v1/images/menu/xxhdpi/share.png",
+          "xxxhdpi": "v1/images/menu/xxxhdpi/share.png",
+          "default": "v1/images/menu/xhdpi/share.png"
+        },
+        "action": {
+          "type": "shareApp"
+        }
+      },
+      {
+        "id": 203,
+        "title": {
+          "localized": {
+            "ru": "Центр обслуживания",
+            "uz": "Қўнғироқлар маркази"
+          }
+        },
+        "icon": {
+          "mdpi": "v1/images/menu/mdpi/call_center.png",
+          "hdpi": "v1/images/menu/hdpi/call_center.png",
+          "xhdpi": "v1/images/menu/xhdpi/call_center.png",
+          "xxhdpi": "v1/images/menu/xxhdpi/call_center.png",
+          "xxxhdpi": "v1/images/menu/xxxhdpi/call_center.png",
+          "default": "v1/images/menu/xhdpi/call_center.png"
+        },
+        "action": {
+          "type": "dial",
+          "number": "+998 97 130 09 09"
+        }
+      },
+      {
+        "id": 204,
+        "title": {
+          "localized": {
+            "ru": "Телеграм канал",
+            "uz": "Телеграм канал"
+          }
+        },
+        "icon": {
+          "mdpi": "v1/images/menu/mdpi/telegram.png",
+          "hdpi": "v1/images/menu/hdpi/telegram.png",
+          "xhdpi": "v1/images/menu/xhdpi/telegram.png",
+          "xxhdpi": "v1/images/menu/xxhdpi/telegram.png",
+          "xxxhdpi": "v1/images/menu/xxxhdpi/telegram.png",
+          "default": "v1/images/menu/xhdpi/telegram.png"
+        },
+        "action": {
+          "type": "openUri",
+          "uri": "https://t.me/umsuzbekiston1"
+        }
+      },
+      {
+        "id": 205,
+        "groupId": 301,
+        "title": {
+          "default": "Тил: Ўзбекча"
+        },
+        "action": {
+          "type": "changeLanguage",
+          "value": "uz"
+        }
+      },
+      {
+        "id": 206,
+        "groupId": 301,
+        "title": {
+          "default": "Язык: Русский"
+        },
+        "action": {
+          "type": "changeLanguage",
+          "value": "ru"
+        }
+      }
+    ]
+  }
 }
