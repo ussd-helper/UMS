@@ -70,11 +70,7 @@
         "default": "Бепул MBлар"
       },
       "amount": {
-        "localized": {
-          "uz": "5000 MB",
-          "ru": "5000 MB"
-        },
-        "default": "5000 MB"
+        "default": "30000 MB"
       }
     },
     {
@@ -86,11 +82,7 @@
         "default": "Бепул SMS"
       },
       "amount": {
-        "localized": {
-          "uz": "500",
-          "ru": "500"
-        },
-        "default": "500"
+        "default": "5000"
       }
     },
     {
@@ -158,9 +150,6 @@
       }
     }
   ],
-  "ussdConfirmMessage": {
-    "default": "Ушбу тарифга ўтмоқчимисиз?"
-  },
   "confirmNegativeButton": {
     "localized": {
       "uz": "Йўқ",

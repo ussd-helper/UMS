@@ -1,6 +1,6 @@
 {
   "mainScreen": {
-    "path": "test/main.json",
+    "path": "v1/main.json",
     "type": "grid"
   },
   "navigationView": {
