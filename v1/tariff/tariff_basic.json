@@ -54,10 +54,6 @@
         "default": "Бепул дақиқалар"
       },
       "amount": {
-        "localized": {
-          "uz": "500 минут",
-          "ru": "500 минут"
-        },
         "default": "500 минут"
       }
     },
@@ -70,11 +66,7 @@
         "default": "Бепул MBлар"
       },
       "amount": {
-        "localized": {
-          "uz": "100 MB",
-          "ru": "100 MB"
-        },
-        "default": "100 MB"
+        "default": "300 MB"
       }
     },
     {
@@ -86,11 +78,7 @@
         "default": "Бепул SMS"
       },
       "amount": {
-        "localized": {
-          "uz": "200",
-          "ru": "200"
-        },
-        "default": "200"
+        "default": "500"
       }
     },
     {
@@ -158,9 +146,6 @@
       }
     }
   ],
-  "ussdConfirmMessage": {
-    "default": "Ушбу тарифга ўтмоқчимисиз?"
-  },
   "confirmNegativeButton": {
     "localized": {
       "uz": "Йўқ",

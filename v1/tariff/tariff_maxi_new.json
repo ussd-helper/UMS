@@ -204,13 +204,6 @@
       "type": "description"
     }
   ],
-  "ussdConfirmMessage": {
-    "localized": {
-      "uz": "Ушбу тарифга ўтмоқчимисиз?",
-      "ru": "Хотите перейти на этот тариф?"
-    },
-    "default": "Ушбу тарифга ўтмоқчимисиз?"
-  },
   "confirmNegativeButton": {
     "localized": {
       "uz": "Йўқ",

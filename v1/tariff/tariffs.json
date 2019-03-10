@@ -25,6 +25,52 @@
     {
       "title": {
         "localized": {
+          "uz": "«Chilla Lite»",
+          "ru": "«Chilla Lite»"
+        },
+        "default": "«Chilla Lite»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_chilla_lite.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Chilla Lite»",
+              "ru": "Тариф «Chilla Lite»"
+            },
+            "default": "Тариф «Chilla Lite»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
+          "uz": "«Chilla»",
+          "ru": "«Chilla»"
+        },
+        "default": "«Chilla»"
+      },
+      "action": {
+        "type": "openScreen",
+        "screen": {
+          "path": "v1/tariff/tariff_chilla.json",
+          "type": "list",
+          "title": {
+            "localized": {
+              "uz": "Тариф «Chilla»",
+              "ru": "Тариф «Chilla»"
+            },
+            "default": "Тариф «Chilla»"
+          }
+        }
+      }
+    },
+    {
+      "title": {
+        "localized": {
           "uz": "«Асосий»",
           "ru": "«Базовый»"
         },
